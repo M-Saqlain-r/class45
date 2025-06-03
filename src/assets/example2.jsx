@@ -6,6 +6,7 @@ function example2() {
         const interval = setInterval(() => {
             setcount(prevcount => prevcount + 1);
         }, 1000);
+        return () => clearInterval(interval)
     }, [])
     return (
         <div>
