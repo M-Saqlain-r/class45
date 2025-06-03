@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react'
 
 function example2() {
-    const [count, setcount] = useState(0);
+    const [time, settime] = useState(0);
     useEffect(() => {
         const interval = setInterval(() => {
-            setcount(prevcount => prevcount + 1);
+            settime(new Date().toLocaleTimeString());
         }, 1000);
+        console.log('Time Getting Change');
+        
         return () => clearInterval(interval)
     }, [])
     return (
         <div>
-            <p>Count:{count} </p>
+            <p>time:{time} </p>
         </div>
     )
 }
