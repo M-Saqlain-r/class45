@@ -1,9 +1,9 @@
 import React from 'react'
-import Ucbox from './assets/Ucbox'
+import Example2 from './assets/example2'
 function App() {
   return (
     <div>
-      <Ucbox />
+      <Example2 />
     </div>
   )
 }
