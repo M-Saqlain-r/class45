@@ -142,7 +142,7 @@ function main() {
         <div className='p-3'>
 
             <Header credit={sum1} debit={sum2} />
-            <div className='flex justify-between items-center cursor-pointer select-none border-t border-gray-400 p-2'>
+            <div className='flex justify-between items-center select-none border-t border-gray-400 p-2'>
                 <div className='flex  gap-10'>
                     <div className='flex w-[350px] rounded-full items-center justify-center gap-3 p-2 bg-gray-100'>
                         <Daterange />
@@ -150,7 +150,7 @@ function main() {
                     </div>
                     <Input Change={Event} />
                 </div>
-                <div className='h-[40px] w-[100px] bg-gray-100 rounded-full flex justify-center items-center '>
+                <div className='h-[40px] w-[100px] bg-gray-100 rounded-full flex cursor-pointer  justify-center items-center '>
                     Export
                 </div>
             </div>
