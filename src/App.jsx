@@ -1,9 +1,10 @@
 import React from 'react'
-import Example2 from './assets/example2'
+import Cards from './assets/cards'
+import Main from './assets/main'
 function App() {
   return (
     <div>
-      <Example2 />
+      <Main />
     </div>
   )
 }
