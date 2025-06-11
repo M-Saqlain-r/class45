@@ -76,7 +76,7 @@ function Page1() {
                 </div>
             </div>
             <div className="">
-                <Footer img={<BiBasketball />} part1='Need help?' part2='Submit' dot={<RxDotFilled className='text-2xl text-purple-800' />} dot1={<RxDotFilled className='text-2xl text-gray-300' />} />
+                <Footer img={<BiBasketball />} w1='w-[130px] flex gap-1 font-semibold ' part1='Need help?' part2='Submit' dot={<RxDotFilled className='text-2xl text-purple-800' />} dot1={<RxDotFilled className='text-2xl text-gray-300' />} />
             </div>
         </div>
     );

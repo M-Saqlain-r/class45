@@ -33,7 +33,7 @@ function Page2() {
                 <Input onChnage={Focus} place='' length='1' class='w-[50px] h-[60px] outline-purple-500 outline-1 border-purple-600 border-2 rounded-lg text-center text-3xl ' keys='5' />
                 <Input onChnage={Focus} place='' length='1' class='w-[50px] h-[60px] outline-purple-500 outline-1 border-purple-600 border-2 rounded-lg text-center text-3xl ' keys='6' />
             </div>
-                <Footer img={<BiBasketball />} button='w-[100px] gap-2' part1='Need help?' part2='Enable 2FA' dot={<RxDotFilled className='text-2xl text-gray-300' />} dot1={<RxDotFilled className='text-2xl  text-purple-800' />} />
+                <Footer img={<BiBasketball />} w1='w-[130px] flex gap-1 font-semibold ' button='w-[100px] gap-2' part1='Need help?' part2='Enable 2FA' dot={<RxDotFilled className='text-2xl text-gray-300' />} dot1={<RxDotFilled className='text-2xl  text-purple-800' />} />
         </div>
     )
 }

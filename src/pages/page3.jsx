@@ -44,7 +44,7 @@ function Page3() {
     };
 
     return (
-        <div className='w-[350px] ' >
+        <div className='w-[380px] ' >
             <Header head1='Create Profile' head2='Create a free profile in less than 5 minutes' gap='gap-3' />
             <div className=" flex flex-col font-semibold gap-3 mt-4">
                 <Button img={<FcGoogle className='text-2xl' />} text='Sign up with Google' />
@@ -57,11 +57,11 @@ function Page3() {
                 <div className='flex justify-between'>
                     <div className="">
                         <div className="font-semibold">First name*</div>
-                        <div className=""><Input place='first' class='border-gray-500 pl-2 border-1 outline-purple-700 rounded-lg h-[35px] w-[170px] ' /></div>
+                        <div className=""><Input place='First' class='border-gray-500 pl-2 border-1 outline-purple-700 rounded-lg h-[35px] w-[170px] ' /></div>
                     </div>
                     <div className="">
                         <div className="font-semibold">Last name*</div>
-                        <div className=""><Input place='last' class='border-gray-500 pl-2 border-1 outline-purple-700 rounded-lg h-[35px] w-[170px] ' /></div>
+                        <div className=""><Input place='Last' class='border-gray-500 pl-2 border-1 outline-purple-700 rounded-lg h-[35px] w-[170px] ' /></div>
                     </div>
                 </div>
                 <div className="">
@@ -80,7 +80,7 @@ function Page3() {
                 </div>
 
             </div>
-            <Footer img={<FiLock />} w1='w-[160px] font-semibold' w2='w-[120px]' part1='Forgot Password?' part2='Create profile' />
+            <Footer img={<FiLock />} w1='w-[180px] font-semibold flex gap-1' w2='w-[120px]' part1='Forgot Password?' part2='Create profile' />
         </div>
     )
 }

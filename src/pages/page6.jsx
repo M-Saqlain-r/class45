@@ -46,7 +46,7 @@ function Page6(props) {
                 </div>
             </div>
 
-            <Footer part1='Skip intro' part2='Continue' dot={<RxDotFilled className='text-2xl text-purple-800' />} dot1={<RxDotFilled className='text-2xl text-gray-300' />} dot2={<RxDotFilled className='text-2xl text-gray-300' />} />
+            <Footer part1='Skip intro' w1='w-[100px]' part2='Continue' dot={<RxDotFilled className='text-2xl text-purple-800' />} dot1={<RxDotFilled className='text-2xl text-gray-300' />} dot2={<RxDotFilled className='text-2xl text-gray-300' />} />
         </div>
     );
 }

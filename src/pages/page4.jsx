@@ -9,7 +9,7 @@ import Button from '../components/Button'
 
 function Page4() {
     return (
-        <div className='w-[350px] ' >
+        <div className='w-[380px] ' >
             <Header head1='Create Profile' head2='Create a free profile in less than 5 minutes' gap='gap-3' />
             <div className=" flex flex-col font-semibold gap-3 mt-4">
                 <Button img={<FcGoogle className='text-2xl' />} text='Sign in with Google' />
@@ -31,7 +31,7 @@ function Page4() {
 
 
             </div>
-            <Footer img={<FiLock />} w1='w-[170px] font-semibold' w2='w-[120px]' part1='Forgot Password?' part2='Sign in' />
+            <Footer img={<FiLock />} w1='w-[180px] font-semibold flex gap-1' w2='w-[120px]' part1='Forgot Password?' part2='Sign in' />
         </div>
     )
 }
